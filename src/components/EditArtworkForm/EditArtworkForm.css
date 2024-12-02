@@ -1,0 +1,25 @@
+.ArtworkForm {
+
+    text-align: left;
+
+}
+
+.ArtworkForm {
+    width: 100%;
+}
+
+.ArtworkForm .form-control {
+    color: black !important;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.btn-outline-danger {
+    border-color: red !important;
+    color: red !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: red !important;
+    color: white !important;
+}

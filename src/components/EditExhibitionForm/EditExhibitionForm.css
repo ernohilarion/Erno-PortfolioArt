@@ -1,0 +1,14 @@
+.ExhibitionForm {
+    text-align: left !important;
+    display: block;
+}
+
+.EditExhibitionForm .form-control {
+    color: black !important;
+    background-color: white;
+}
+
+.EditExhibitionForm .form-check-label {
+    color: black !important;
+
+}

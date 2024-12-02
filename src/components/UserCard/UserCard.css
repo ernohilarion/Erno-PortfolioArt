@@ -1,0 +1,30 @@
+.UserCard {
+    margin-bottom: 0.5em;
+    color: #000000;
+}
+
+.user-card {
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.user-card .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card .user-info {
+    flex: 0 0 75%;
+}
+
+.user-card .user-image {
+    flex: 0 0 25%;
+    text-align: right;
+}
+
+.user-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}

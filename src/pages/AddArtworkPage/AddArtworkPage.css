@@ -1,0 +1,34 @@
+.therow-title {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 0.8em;
+}
+
+.therow-title {
+    font-size: 1.5em !important;
+    text-align: center !important;
+    color: #000000 !important;
+}
+
+.hr-full-width {
+    width: 100% !important;
+    margin: 0 auto !important;
+    border: 1px solid #000000 !important;
+}
+
+.add-artwork-form {
+    font-size: 0.8em !important;
+    color: #333;
+}
+
+.add-artwork-form input,
+.add-artwork-form textarea,
+.add-artwork-form select {
+    width: 100% !important;
+    padding: 0.5em !important;
+    margin-bottom: 1em !important;
+    font-size: 0.9em !important;
+}

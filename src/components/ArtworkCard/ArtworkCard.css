@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@300&family=Quicksand:wght@300..700&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a,
+button,
+input,
+textarea {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+}
+
+
+.exhibition-card {
+    border: none !important;
+    overflow: hidden !important;
+    margin: 10px !important;
+    padding: 15px !important;
+    transition: transform 0.2s !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.exhibition-details {
+    text-align: center !important;
+    font-size: 0.8em !important;
+    color: #000000 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.exhibition-card:hover {
+    transform: scale(1.05) !important;
+}
+
+.exhibition-details h6 {
+    font-size: 0.9em !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+}
+
+
+.artwork-details h5 em {
+    font-weight: bold !important;
+    font-size: 1.2em !important;
+    color: #000000 !important;
+}
+
+
+.artwork-details h5 {
+    font-style: normal !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+    font-size: 0.9em !important;
+}
+
+
+.artwork-details .list-group-item h5 {
+    font-style: normal !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+}
+
+.ArtworkCard {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+}
+
+
+.collection-profile-card {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-size: 1em !important;
+    line-height: 1.5 !important;
+}
+
+.collection-profile-card h5 {
+    font-weight: 300 !important;
+    margin: 0;
+}
+
+.collection-profile-card h4 {
+    font-weight: 300 !important;
+    font-size: 1.3em !important;
+    font-style: italic !important;
+    margin: 0;
+}

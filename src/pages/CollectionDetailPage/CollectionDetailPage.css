@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@300&family=Quicksand:wght@300..700&display=swap');
+
+/* General */
+.body {
+    color: rgba(39, 39, 39, 1) !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border: 0 !important;
+    border-top: 1px solid #000000 !important;
+    margin: 20px 0 !important;
+    opacity: 1 !important;
+    background-color: transparent !important;
+}
+
+/* Aseguramos que solo el H1 dentro de .collection-backgrd-text esté alineado a la izquierda */
+.collectionDetailPage .collection-backgrd-text h1 {
+    text-align: left !important;
+}
+
+.other-text h1 {
+    text-align: left !important;
+}
+
+/* Texto sobre la imagen */
+.collection-backgrd-text {
+    position: absolute;
+    left: 0;
+    top: 72% !important;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(2.5vw + 2.5rem);
+    font-weight: 100;
+    text-align: left;
+    z-index: 10;
+    overflow: hidden;
+    /* Asegura que el texto fuera del área visible no se vea */
+}
+
+.collection-backgrd-text h1 {
+    margin: 0;
+    padding-left: 5px !important;
+    line-height: 0.7 !important;
+    font-weight: bold;
+    font-size: calc(2.5vw + 2.5rem);
+    color: white;
+}
+
+.collection-backgrd-text marquee h1 {
+    font-size: calc(3vw + 4rem) !important;
+    font-weight: bold;
+    color: white;
+}
+
+.marquee-wrapper {
+    width: 100%;
+    height: 100% !important;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee-wrapper marquee {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* Ocupa todo el ancho del recuadro */
+}
+
+
+
+/* Contenedor de imagen */
+.collectionDetailPage {
+    position: relative;
+}
+
+
+/* Aseguramos que los contenedores también estén alineados a la izquierda */
+.collectionDetailPage,
+.image-container,
+.other-container,
+.User-info,
+.bioText {
+    text-align: left !important;
+}
+
+.User-info>h5,
+.bioText h5,
+.collection-backgrd-text h1,
+.other-container .other-text p {
+    text-align: left !important;
+}
+
+/* Además, asegúrate de que los textos h5 y h1 tengan una alineación clara */
+.User-info>h5 {
+    text-align: left !important;
+}
+
+.bioText h5 {
+    text-align: left !important;
+}
+
+.collection-backgrd-text h1 {
+    text-align: left !important;
+}
+
+/* Estilo para .image-container */
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-container .collection-backgrd-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    color: rgb(198, 32, 32);
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(2.5vw + 2.5rem);
+    font-weight: 100;
+    text-align: left;
+    z-index: 10;
+}
+
+.image-container .collection-backgrd-text h1 {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.5;
+    font-size: calc(2.5vw + 2.5rem);
+    color: white !important;
+    font-weight: bold;
+}
+
+
+
+
+
+.image-container {
+    position: relative;
+    background-color: #4CAF50;
+    width: 100%;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.collection-backgrd-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.collection-backgrd-text marquee {
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+}
+
+.collection-backgrd-text marquee h1 {
+    margin: 0;
+    padding: 0;
+    font-size: calc(2.5vw + 2.5rem);
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+/* Estilo para otro bloque: .other-container */
+.other-container .other-text {
+    position: relative;
+    padding: 30px 10px !important;
+    color: #333;
+    justify-content: left !important;
+    font-size: 1.5rem;
+}
+
+.other-container .other-text h1 {
+    font-size: 3rem;
+    color: #4CAF50;
+    /* Color verde */
+    font-weight: bold;
+}
+
+/* Estilos del perfil */
+.User-info>h5 {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: normal !important;
+    font-size: calc(3vw + 3rem) !important;
+    line-height: 1.5 !important;
+    padding: 10px 20px;
+    margin: 0px 0px !important;
+    text-align: left !important;
+    background-color: red !important;
+    border: 2px solid black !important;
+}
+
+.bioText h5 {
+    background-color: red !important;
+    font-size: calc(3vw + 3rem) !important;
+    text-align: left !important;
+    padding: 30px 20px !important;
+}
+
+/* Imagen del perfil */
+.Img-profile img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.view-selector {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    margin: 20px !important;
+}
+
+.view-selector button {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    outline: none;
+}
+
+.view-selector button img {
+    width: 20px;
+    height: auto;
+}
+
+.view-selector button:hover,
+.view-selector button:focus {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    transform: scale(1.02);
+}
+
+.view-selector button.btn-outline-primary {
+    --bs-btn-color: inherit;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: inherit;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-focus-shadow-rgb: transparent;
+    --bs-btn-active-color: inherit;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-active-shadow: none;
+    --bs-btn-disabled-color: inherit;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: transparent;
+    --bs-gradient: none;
+}
+
+/* Contenedor de las tarjetas */
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+.artwork-card.card:hover {
+    transform: scale(1.01) !important;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Contenedor principal */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tarjetas individuales */
+.artwork-card.card {
+    flex: 0 0 20%;
+    height: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px !important;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.artwork-image-container {
+    height: auto;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.artwork-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.artwork-text-container {
+    height: 40%;
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+}
+
+.artwork-details h4,
+.artwork-details h5 {
+    margin: 5px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.artwork-details h4 {
+    font-size: 1.2rem;
+}
+
+.artwork-details h5 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* Clases para las vistas de 4, 6 y 8 columnas */
+.grid-4-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+}
+
+.grid-6-columns {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0px;
+}
+
+.grid-8-columns {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0px;
+}
+
+
+
+.buttom-back {
+    border: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: white !important;
+    padding: 10px 20px;
+    transition: none !important;
+    cursor: pointer;
+    font-size: calc(2.5vw + 2.5rem) !important;
+    font-weight: 10 !important;
+    text-align: left !important;
+}
+
+.button-container {
+    background-color: rgba(39, 39, 39, 1);
+    padding: 50px 0 !important;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left !important;
+}
+
+
+
+
+
+/* Media queries */
+@media screen and (max-width: 992px) {
+
+    .grid-4-columns,
+    .grid-6-columns,
+    .grid-8-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .grid-4-columns,
+    .grid-6-columns,
+    .grid-8-columns {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Media Queries */
+@media screen and (min-width: 1024px) {
+    .artwork-card.card {
+        flex: 0 0 20%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 950px) {
+    .artwork-card.card {
+        flex: 0 0 25%;
+    }
+}
+
+@media screen and (max-width: 950px) and (min-width: 480px) {
+    .artwork-card.card {
+        flex: 0 0 33.33%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .grid-4-columns,
+    .grid-6-columns,
+    .grid-8-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .grid-4-columns,
+    .grid-6-columns,
+    .grid-8-columns {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Media Queries */
+@media screen and (min-width: 1024px) {
+    .artwork-card.card {
+        flex: 0 0 20%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 950px) {
+    .artwork-card.card {
+        flex: 0 0 25%;
+    }
+}
+
+@media screen and (max-width: 950px) and (min-width: 480px) {
+    .artwork-card.card {
+        flex: 0 0 33.33%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .artwork-card.card {
+        flex: 0 0 50%;
+    }
+
+    .artwork-image-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .artwork-thumbnail {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .artwork-card.card {
+        flex: 0 0 100%;
+    }
+
+    .artwork-image-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .artwork-thumbnail {
+        width: 100%;
+        height: auto;
+    }
+}

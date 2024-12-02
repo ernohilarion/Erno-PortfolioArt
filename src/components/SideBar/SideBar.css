@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@300&family=Quicksand:wght@300..700&display=swap');
+
+.offcanvas {
+    backdrop-filter: blur(10px) !important;
+    background-color: rgba(255, 0, 0, 0.5) !important;
+    color: white !important;
+    font-size: 1.5rem !important;
+}
+
+.hamb {
+    width: 32px !important;
+    color: red !important;
+}
+
+.offcanvas a {
+    color: white !important;
+    text-decoration: none !important;
+    margin-right: 1rem !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+.offcanvas-title {
+    color: white !important;
+    font-size: 2rem !important;
+}
+
+.offcanvas-title .btn-close {
+
+    color: white;
+
+}
+
+ul {
+    list-style-type: none !important;
+    font-size: 2rem !important;
+    padding: 1.5rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    margin: 0 !important;
+}
+
+li {
+    padding: 0.9rem !important;
+    margin-right: 1rem !important;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    padding: 1rem !important;
+}
+
+.btn-close {
+    background-color: transparent !important;
+    color: white !important;
+    border-radius: 0 !important;
+
+}
