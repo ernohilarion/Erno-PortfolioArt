@@ -14,6 +14,8 @@ function ArtworkDetailsPage() {
     const [artworkData, setArtworkInfo] = useState([]);
 
 
+
+
     useEffect(() => {
         artworkServices
             .getOneArtwork(artworkId)
